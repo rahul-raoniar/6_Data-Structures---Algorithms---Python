@@ -3,7 +3,7 @@ class Node:
         self.value = value
         self.left = None
         self.right = None
-        
+
 class BinarySearchTree:
     def __init__(self):
         self.root = None
@@ -27,7 +27,7 @@ class BinarySearchTree:
                     temp.right = new_node
                     return True
                 temp = temp.right
-
+                
 my_tree = BinarySearchTree()
 my_tree.insert(2)
 my_tree.insert(1)
