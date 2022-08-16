@@ -3,11 +3,12 @@ class Node:
         self.value = value
         self.left = None
         self.right = None
-
-class BinarySearchTree:
+        
+class BinaryTree:
     def __init__(self):
         self.root = None
         
+    
     def insert(self, value):
         new_node = Node(value)
         if self.root is None:
@@ -16,7 +17,7 @@ class BinarySearchTree:
         temp = self.root
         while True:
             if new_node.value == temp.value:
-                return False
+                return None
             if new_node.value < temp.value:
                 if temp.left is None:
                     temp.left = new_node
@@ -28,10 +29,12 @@ class BinarySearchTree:
                     return True
                 temp = temp.right
                 
-my_tree = BinarySearchTree()
-my_tree.insert(2)
-my_tree.insert(1)
-my_tree.insert(3)
-print(my_tree.root.value)
-print(my_tree.root.left.value)
-print(my_tree.root.right.value)
+my_binary_tree = BinaryTree()
+my_binary_tree.insert(12)
+my_binary_tree.insert(10)
+my_binary_tree.insert(14)
+my_binary_tree.insert(5)
+print("root:", my_binary_tree.root.value)
+print("left:", my_binary_tree.root.left.value)
+print("right:", my_binary_tree.root.right.value)
+print(my_binary_tree.root.left.left.value)
