@@ -2,7 +2,6 @@ class HashTable:
     def __init__(self, size = 7):
         self.data_map = [None] * size
         
-        
     def __hash(self, key):
         my_hash = 0
         for letter in key:
@@ -19,8 +18,16 @@ class HashTable:
             self.data_map[index] = []
         self.data_map[index].append([key, value])
             
+    def get_item(self, key):
+        index = self.__hash(key)
+        if self.data_map[index] is not None:
+            for i in range(len(self.data_map[index])):
+                if self.data_map[index][i][0] == key:
+                    return self.data_map[index][i][1]
+        return None
+        
+            
 my_hash_table = HashTable()
-my_hash_table.set_item("bolts", 100)
-my_hash_table.set_item("bags", 500)
-my_hash_table.set_item("cloths", 200)
-my_hash_table.print_table()
+my_hash_table.set_item("bolts", 1400)
+my_hash_table.set_item("bags", 50)
+print(my_hash_table.get_item("bags"))
