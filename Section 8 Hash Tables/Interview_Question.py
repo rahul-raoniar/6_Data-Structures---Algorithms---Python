@@ -23,6 +23,7 @@ def item_in_common(list1, list2):
     for j in list2:
         if j in my_dict:
             return True
+    return False
         
 
 
