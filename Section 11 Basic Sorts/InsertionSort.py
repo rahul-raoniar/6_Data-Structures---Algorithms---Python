@@ -1,3 +1,8 @@
+# BigO
+# Worse O(n^2)
+# Best for almost sorted data: O(n)
+
+
 my_list = [1, 2, 4, 3, 5, 6]
 
 def insertion_sort(my_list):
