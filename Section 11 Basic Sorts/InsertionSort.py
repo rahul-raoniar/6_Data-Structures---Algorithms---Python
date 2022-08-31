@@ -1,6 +1,10 @@
 # BigO
 # Worse O(n^2)
 # Best for almost sorted data: O(n)
+# Space: O(1)
+# All three of these sort the list in place.
+# That means that they do not create additional copies of the list.
+# That means it the space complexity is O(1)
 
 
 my_list = [1, 2, 4, 3, 5, 6]

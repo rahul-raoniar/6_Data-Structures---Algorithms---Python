@@ -1,3 +1,9 @@
+# Time: O(n^2)
+# Space: O(1)
+# All three of these sort the list in place.
+# That means that they do not create additional copies of the list.
+# That means it the space complexity is O(1)
+
 def bubble_sort(my_list):
     for i in range(len(my_list)-1, 0, -1):
         for j in range(i):
