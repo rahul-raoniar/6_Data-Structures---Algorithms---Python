@@ -1,3 +1,8 @@
+# BigO
+# Worse O(n^2)
+# Best for almost sorted data: O(n)
+
+
 def selection_sort(my_list):
     for i in range(len(my_list)-1):
         min_index = i

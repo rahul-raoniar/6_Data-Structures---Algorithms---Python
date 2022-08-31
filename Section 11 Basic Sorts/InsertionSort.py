@@ -10,5 +10,5 @@ def insertion_sort(my_list):
             j-=1
     return my_list
         
-print(insertion_sort(my_list))
+print(insertion_sort([4,2,6,5,1,3]))
         
