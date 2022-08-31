@@ -7,4 +7,4 @@ def bubble_sort(my_list):
                 my_list[j+1] = temp
     return my_list
 
-print(bubble_sort([23, 12, 44, 22]))
+print(bubble_sort([4,2,6,5,1,3]))
