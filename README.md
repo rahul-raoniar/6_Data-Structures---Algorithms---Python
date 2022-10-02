@@ -13,11 +13,11 @@ Contents of the repository:
 5. Graphs
 6. Recursion
 7. Sorting Algorithms
-* Bubble Sort
-* Insertion sort
-* Selection sort
-* Merge sort
-* Quick sort
+    * Bubble Sort
+    * Insertion sort
+    * Selection sort
+    * Merge sort
+    * Quick sort
 8. Tree Traversal
 * Bredth first search
 * Depth first search
