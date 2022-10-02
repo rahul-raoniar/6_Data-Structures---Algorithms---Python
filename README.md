@@ -5,8 +5,8 @@ The econtent includes codes and corrosponding big(O)
 Contents of the repository:
 
 1. Linked Lists
-* Singly linked list
-* Doubly linked list
+    * Singly linked list
+    * Doubly linked list
 2. Stacks and Queues
 3. Binary Trees
 4. Hash Tables
@@ -19,5 +19,5 @@ Contents of the repository:
     * Merge sort
     * Quick sort
 8. Tree Traversal
-* Bredth first search
-* Depth first search
+    * Bredth first search
+    * Depth first search
